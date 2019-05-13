@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Ubuntu');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFBF46;
+}
+
+.nav-link{
+    float: right;
+    padding: 14px 16px;
+    color: #FAF9F9;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #E7F9F9;
+}
+
+h1{
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    color: #575761;
+    align-self: center;
+}
+
+#self-description{
+    color: #FAF9F9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    align-self: center;
+}
+
+#welcome-section{
+    height: 100vh;
+    background-color: #FFBF46;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #575761;
+    padding: 20px;
+}
+
+.project{
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 5px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 20px 40px;
+}
+
+#project-img{
+  width: 100%;
+  height: auto;
+  border-bottom: 5px solid lightblue;
+}
+
+#project-title{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #648381;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contact{
+    background-color: #BEE3DB;
+}
+
+#circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+  border: 5px solid #648381;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #FAF9F9;
+  text-align: center;
+  color: #575761;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-details:hover{
+    background-color: #E7F9F9;
+}
+
+#footer{
+    float: right;
+    color: #FAF9F9;
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+}
+
+footer{
+  background-color: #648381;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
